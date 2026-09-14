@@ -12,10 +12,13 @@ hw2 = st.Page(
     title="HW 2",
     default=True
 )
-
+hw3 = st.Page(
+    "HW/HW3.py",
+    title="HW 3"
+)
 pg = st.navigation(
     {
-        "HW Manager": [hw1, hw2]
+        "HW Manager": [hw1, hw2, hw3]
     }
 )
 
